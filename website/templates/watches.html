@@ -1,0 +1,58 @@
+{% extends "base.html" %} {% block title %}Mens watch{% endblock%} {% block content %}
+<div class="container top-marg heigh">
+  <div class="card-group">
+    <div class="card">
+      <img
+        class="card-img-top zoom"
+        src="{{url_for('static', filename='img/1st watch.jpg')}}"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Double Tour.</h5>
+        <p class="card-text">
+          The extra-long band of the iconic Double Tour wraps elegantly twice around the wrist.
+          Available in multiple colorways, each paired with a 40mm stainless steel case. Bands in
+          additional colors available separately
+        </p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <button type="button" class="btn btn-lg btn-success btn-block">Buy now</button>
+      </div>
+    </div>
+    <div class="card">
+      <img
+        class="card-img-top zoom"
+        src="{{url_for('static', filename='img/2nd watch.jpg')}}"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Single Tour.</h5>
+        <p class="card-text">
+          The classic Hermès design. The buckle recalls those on the straps of a saddle, a nod to
+          the equestrian heritage of Hermès. Available in a variety of colors with stainless steel
+          cases in two sizes. Bands in colors available.
+        </p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <button type="button" class="btn btn-lg btn-success btn-block">Buy now</button>
+      </div>
+    </div>
+    <div class="card">
+      <img
+        class="card-img-top zoom"
+        src="{{url_for('static', filename='img/3rd watch.jpg')}}"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Classic</h5>
+        <p class="card-text">
+          The extra-long band of the iconic Double Tour wraps elegantly twice around the wrist.
+          Available in multiple colorways, each paired with a 40mm stainless steel case. Bands in
+          additional colors available separately
+        </p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <button type="button" class="btn btn-lg btn-success btn-block">Buy now</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{%endblock%}
